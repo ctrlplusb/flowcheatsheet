@@ -7,11 +7,8 @@ import Helmet from 'react-helmet';
 import 'normalize.css/normalize.css';
 import './globals.css';
 
-import Logo from './lib/Logo';
-
-const websiteDescription =
-  'A starter kit giving you the minimum requirements for a production ready ' +
-  'universal react application.';
+const WEBSITE_DESCRIPTION =
+  'An interactive cheat sheet for Facebook\'s Flow type system.';
 
 function App(props : { children : $React$Children }) {
   const { children } = props;
@@ -23,18 +20,17 @@ function App(props : { children : $React$Children }) {
       */}
       <Helmet
         htmlAttributes={{ lang: 'en' }}
-        titleTemplate="React Universally - %s"
-        defaultTitle="React Universally"
+        titleTemplate="Flow Cheat Sheet - %s"
+        defaultTitle="Flow Cheat Sheet"
         meta={[
-          { name: 'description', content: websiteDescription },
+          { name: 'description', content: WEBSITE_DESCRIPTION },
         ]}
         script={[]}
       />
 
       <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
-        <Logo />
-        <h1>React, Universally</h1>
-        <strong>{websiteDescription}</strong>
+        <h1>Flow Cheat Sheet</h1>
+        <strong>{WEBSITE_DESCRIPTION}</strong>
       </div>
       <div style={{ marginBottom: '1rem' }}>
         <ul>

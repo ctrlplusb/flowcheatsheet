@@ -1,10 +1,10 @@
 {
-  "name": "react-universally",
-  "version": "6.0.0",
-  "description": "A starter kit giving you the minimum requirements for a production ready universal react application.",
+  "name": "flowcheatsheet",
+  "version": "0.0.1",
+  "description": "An interactive cheat sheet for Facebook's Flow type system.",
   "main": "build/server/main.js",
   "engines": {
-    "node": "~6.6.0"
+    "node": "~6.7.0"
   },
   "scripts": {
     "typecheck": "flow",
@@ -19,20 +19,16 @@
     "url": "git+https://github.com/ctrlplusb/react-universally.git"
   },
   "keywords": [
-    "react",
-    "boilerplate",
-    "starter kit",
-    "universal",
-    "javascript",
-    "express",
-    "webpack"
+    "flowtype",
+    "flow",
+    "cheatsheet"
   ],
   "author": "Sean Matheson <sean@ctrlplusb.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ctrlplusb/react-universally/issues"
+    "url": "https://github.com/ctrlplusb/flowcheatsheet/issues"
   },
-  "homepage": "https://github.com/ctrlplusb/react-universally#readme",
+  "homepage": "https://github.com/ctrlplusb/flowcheatsheet#readme",
   "dependencies": {
     "app-root-path": "2.0.1",
     "compression": "1.6.2",
